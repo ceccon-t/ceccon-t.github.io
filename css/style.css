@@ -1,0 +1,89 @@
+/* FONTS */
+@import 'https://fonts.googleapis.com/css?family=Orbitron:400,700';
+
+body,
+#disc {
+  font-family: 'Orbitron', sans-serif;
+}
+p,
+span {
+  font-family: sans-serif;
+}
+#name {
+  font-weight: 700;
+}
+#job {
+  font-size: 25px;
+}
+/* END FONTS */
+
+body {
+  padding-top: 80px;
+}
+#wrapper-all {
+  margin: 0px auto 0px auto;
+  padding-bottom: 25px;
+  /*background-color: #CCC;*/
+}
+#description {
+  margin: 25px 0px 10px 0px;
+}
+#works {
+  margin: 30px 0px 50px 0px;
+}
+.work:hover {
+  background-color: #DDD;
+  border: 1px solid #AAA;
+  box-shadow: 5px 5px 5px #DDE;
+}
+.work-img {
+  /*max-width: 320px;*/
+  margin-top: 10px;
+  border: 1px solid #888;
+}
+#contact-links {
+  margin: 30px 0px 0px 0px;
+}
+#contact-list li {
+  margin: 5px;
+}
+.contact-icon {
+  font-size: 50px;
+}
+#icon-linkedin {
+  color: #007bb6;
+}
+#icon-freecodecamp {
+  color: green;
+}
+#foot {
+  background-color: black;
+  /*margin-top: -25px;*/
+  height: 50px;
+  padding-top: 15px;
+  /*padding: auto;*/
+  color: white;
+}
+#home,
+#projects,
+#contact {
+  position: relative;
+  top: -50px;
+}
+/* solution to align img and desc. on home section */
+@media only screen and (min-width:770px) {
+  #home {
+    display: table;
+  }
+  #home .col-sm-4 {
+    float: none;
+    display: table-cell;
+    vertical-align: middle;
+  }
+  #home .col-sm-8 {
+    float: none;
+    display: table-cell;
+    vertical-align: top;
+  }
+}
+/* end solution to align img and desc */
