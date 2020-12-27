@@ -33,8 +33,7 @@ body {
 }
 .work:hover {
   background-color: #DDD;
-  border: 1px solid #AAA;
-  box-shadow: 5px 5px 5px #DDE;
+  box-shadow: 5px 5px 5px rgb(94, 94, 102);
 }
 .work-img {
   /*max-width: 320px;*/
