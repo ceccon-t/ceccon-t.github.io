@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-150 -150 400 400" >
+  <circle cx="50" cy="50" r="45" stroke="#333" stroke-width="5" fill="transparent"/>
+  <line x1="50" y1="50" x2="50" y2="20" stroke="#333" stroke-width="5" transform="rotate(0 50 50)"/>
+  <line x1="50" y1="50" x2="80" y2="50" stroke="#333" stroke-width="5" transform="rotate(0 50 50)"/>
+  <circle cx="50" cy="50" r="2" fill="#333"/>
+</svg>
+ 
