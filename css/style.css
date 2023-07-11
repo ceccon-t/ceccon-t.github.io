@@ -8,12 +8,13 @@ body,
 p,
 span {
   font-family: sans-serif;
+  font-size: 1.75rem;
 }
 #name {
   font-weight: 700;
 }
 #job {
-  font-size: 25px;
+  font-size: 3rem;
 }
 /* END FONTS */
 
@@ -24,6 +25,18 @@ body {
   margin: 0px auto 0px auto;
   padding-bottom: 25px;
   /*background-color: #CCC;*/
+}
+#wrapper-home {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 28px;
+}
+#home-image {
+  flex: 0 1 30%;
+}
+#home-description {
+  flex: 0 1 70%;
 }
 #description {
   margin: 25px 0px 10px 0px;
@@ -82,20 +95,8 @@ body {
   position: relative;
   top: -50px;
 }
-/* solution to align img and desc. on home section */
-@media only screen and (min-width:770px) {
-  #home {
-    display: table;
-  }
-  #home .col-sm-4 {
-    float: none;
-    display: table-cell;
-    vertical-align: middle;
-  }
-  #home .col-sm-8 {
-    float: none;
-    display: table-cell;
-    vertical-align: top;
+@media(max-width:1000px){
+  #wrapper-home {
+    flex-direction: column;
   }
 }
-/* end solution to align img and desc */
