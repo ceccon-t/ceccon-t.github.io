@@ -55,6 +55,18 @@ body {
   margin-top: 10px;
   border: 1px solid #888;
 }
+.wrapper-work-links {
+  margin-top: 16px;
+}
+.work-link:link,
+.work-link:visited,
+.work-link:hover,
+.work-link:focus,
+.work-link:active {
+  color: #495057;
+  margin: 0 5px;
+  text-decoration: underline;
+}
 .indev-img {
   background-color: #F5F5F5;
   filter: blur(2px);
