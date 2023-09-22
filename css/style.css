@@ -32,6 +32,13 @@ body {
   align-items: center;
   gap: 28px;
 }
+.section-wrapper {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.section-header {
+  margin-bottom: 30px;
+}
 #home-image {
   flex: 0 1 30%;
 }
@@ -103,10 +110,9 @@ body {
 }
 #foot {
   background-color: black;
-  /*margin-top: -25px;*/
+  margin-top: 25px;
   height: 50px;
   padding-top: 15px;
-  /*padding: auto;*/
   color: white;
 }
 #home,
