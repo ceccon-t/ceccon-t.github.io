@@ -24,7 +24,6 @@ body {
 #wrapper-all {
   margin: 0px auto 0px auto;
   padding-bottom: 25px;
-  /*background-color: #CCC;*/
 }
 #wrapper-home {
   display: flex;
@@ -61,7 +60,6 @@ body {
   border-radius: 8px;
 }
 .work-img {
-  /*max-width: 320px;*/
   max-width: 320px;
   max-height: 240px;
   margin-top: 10px;
